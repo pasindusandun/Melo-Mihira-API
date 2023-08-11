@@ -7,8 +7,8 @@ import pandas as pd
 import os
 from tensorflow import keras
 
-# Savedmodel = keras.models.load_model('OverallNewModel.h5')
-Savedmodel = keras.models.load_model('C:/Users/User/Desktop/New Folder/2021-069-IT18154054/API/OverallNewModel1.h5')
+Savedmodel = keras.models.load_model('OverallNewModel.h5')
+# Savedmodel = keras.models.load_model('C:/Users/User/Desktop/New Folder/2021-069-IT18154054/API/OverallNewModel1.h5')
 print("Model Loaded")
 
 genderdict = {'m': 0, 'f': 1}
