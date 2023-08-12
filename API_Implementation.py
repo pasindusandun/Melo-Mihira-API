@@ -79,5 +79,5 @@ async def create_upload_file(file: UploadFile = File(...)):
 #     return {"Activity": Result, "Recommendations": Recommendations}
 
 
-if __name__ == "__main__":
-    uvicorn.run(app, port=8081, host='192.168.8.101')
+# if __name__ == "__main__":
+#     uvicorn.run(app, port=8081, host='192.168.8.101')
