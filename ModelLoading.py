@@ -73,7 +73,7 @@ from skimage import io
 # from keras.preprocessing import image
 from PIL import Image
 from matplotlib import pyplot
-from pprint import pprint
+# from pprint import pprint
 import keras
 from keras.preprocessing import image
 
