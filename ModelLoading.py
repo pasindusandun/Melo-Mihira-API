@@ -82,7 +82,8 @@ def finalImageOutput(path):
     imagess = []
     IMGpath = path
 
-    img = image.load_img(IMGpath)
+    # img = image.load_img(IMGpath)
+    img = Image.open(IMGpath)
 
     # Emotion = input_image_Emotion(IMGpath)
 
